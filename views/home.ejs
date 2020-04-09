@@ -1,0 +1,13 @@
+<h1>Welcome to <%= name %>'s Page</h1>
+<p>More stuff about <%= name %></p>
+<h2>Best fruits:</h2>
+<!-- Whee this is a list -->
+<ul>
+    <% fruits.slice(0, 3).forEach((f) => { %>
+        <li><%= f %></li> <!-- This prints -->
+    <% }) %> <!-- This doesnt -->
+</ul>
+
+<script>
+document.title = 'Whoooo'
+</script>

@@ -1,0 +1,25 @@
+<nav>
+    <ul>
+        <li>
+            <% if (page === 'Home') { %>
+                <a href="/" class="highlight">Home</a>
+            <% } else { %>
+                <a href="/">Home</a>
+            <% } %>
+        </li>
+        <li>
+            <% if (page === 'About') { %>
+                <a href="/about" class="highlight">About</a>
+            <% } else { %>
+                <a href="/about">About</a>
+            <% } %>
+        </li>
+        <li>
+            <% if (page === 'Projects') { %>
+                <a href="/projects" class="highlight">Projects</a>
+            <% } else { %>
+                <a href="/projects">Projects</a>
+            <% } %>
+        </li>
+    </ul>
+</nav>
